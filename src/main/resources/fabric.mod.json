@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"lol.bai.deirn.clientgametesttest.ClientgametesttestClient"
+		],
+		"fabric-client-gametest": [
+			"lol.bai.deirn.clientgametesttest.ClientGameTestTest"
 		]
 	},
 	"mixins": [

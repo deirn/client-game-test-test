@@ -28,6 +28,13 @@ loom {
 		}
 	}
 
+	runs {
+		clientGametest {
+			client()
+			source sourceSets.client
+			vmArg "-Dfabric.client.gametest"
+		}
+	}
 }
 
 dependencies {
